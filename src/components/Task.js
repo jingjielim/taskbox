@@ -27,7 +27,7 @@ export default function Task({
           value={title}
           readOnly={true}
           placeholder="Input title"
-          style={{background: 'red'}}
+          style={{background: 'coral'}}
         />
       </div>
       <div className="actions" onClick={(event) => event.stopPropagation()}>
